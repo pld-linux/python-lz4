@@ -1,11 +1,9 @@
 #
-# TODO: versions 3.0.0+ support only python 3.6+
-#
 # Conditional build:
 %bcond_without	doc	# Sphinx documentation
 %bcond_without	tests	# unit tests
 %bcond_without	python2 # CPython 2.x module
-%bcond_without	python3 # CPython 3.x module
+%bcond_with	python3 # CPython 3.x module (built from python3-lz4.spec)
 
 %define		module	lz4
 Summary:	LZ4 bindings for Python
