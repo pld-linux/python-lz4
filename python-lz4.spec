@@ -11,7 +11,7 @@ Summary(pl.UTF-8):	Wiązania LZ4 dla Pythona
 Name:		python-%{module}
 # keep 2.x here for python2 support
 Version:	2.2.1
-Release:	6
+Release:	7
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/lz4/
